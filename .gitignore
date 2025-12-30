@@ -13,3 +13,4 @@ __pycache__/
 
 # data (通常不提交大数据)
 data/
+main.py
