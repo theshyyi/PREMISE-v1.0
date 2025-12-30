@@ -1,0 +1,31 @@
+{
+  "ref_path": "/path/to/CMFD_daily.nc",
+  "dem_path": "/path/to/DEM.nc",
+  "static_paths": {
+    "Slope": "/path/to/Slope.nc",
+    "Aspect": "/path/to/Aspect.nc"
+  },
+  "dynamic_paths": {
+    "temp": "/path/to/temp_daily_or_monthly.nc",
+    "wind": "/path/to/wind_daily_or_monthly.nc"
+  },
+  "sample_days_per_month": 30,
+  "wet_threshold": 0.1,
+  "sample_points_per_day": 20000,
+  "max_wet_points_per_day": 8000,
+  "clf_n_estimators": 80,
+  "clf_max_depth": 12,
+  "reg_n_estimators": 80,
+  "reg_max_depth": 12,
+  "random_state": 42,
+  "monthly_scale_min": 0.3,
+  "monthly_scale_max": 3.0,
+  "out_var_name": "prec_corrected_two_stage",
+  "products": [
+    "/path/to/CHIRPS_daily.nc",
+    "/path/to/ERA5_daily.nc"
+  ],
+  "out_dir": "/path/to/output_dir",
+  "start_year": 2000,
+  "end_year": 2022
+}

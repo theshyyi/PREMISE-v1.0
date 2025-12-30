@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "premise"
+version = "0.1.0"
+description = "PREMISE v1.0: Precipitation Multi-source Indices and Software Evaluation"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "Your Name"}
+]
+license = {text = "MIT"}
+dependencies = [
+  "numpy",
+  "xarray",
+  "pandas",
+  "matplotlib",
+  "geopandas",
+  "regionmask",
+  "cartopy",
+  "scipy",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+correction = ["scikit-learn>=1.1"]
+fusion = [
+  "scikit-learn>=1.1",
+  "joblib",
+  "tqdm",
+  "geopandas",
+  "regionmask",
+  "shapely",
+  "scipy"
+]
+
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
