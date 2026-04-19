@@ -33,7 +33,7 @@ The repository root already includes a dedicated asset path for the module icon 
 - **Programming language:** Python
 - **System requirements:** Linux, Windows, or macOS
 - **Repository:** https://github.com/theshyyi/PREMISE-v1.0
-- **Version:** 1.0.0
+- **Version:** 2.1.0
 - **DOI:** 10.5281/zenodo.18093220
 
 A manuscript-ready note is provided in [`docs/software_availability.md`](docs/software_availability.md).
