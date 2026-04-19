@@ -2,7 +2,7 @@
 
 **PREMISE** (PREcipitation Multi-source Indices and Software Evaluation) is an open-source Python framework for **basin-oriented hydroclimatic data preparation, comparative product evaluation, and climate-diagnostic workflows** in environmental modelling applications.
 
-The redesigned v1.0 architecture is organized around six application-oriented modules:
+The redesigned v2.0 architecture is organized around six application-oriented modules:
 
 1. **Data acquisition** for multi-source hydroclimatic products.
 2. **Data conversion and harmonization** for heterogeneous raw formats and metadata.
