@@ -23,8 +23,6 @@ The repository root already includes a dedicated asset path for the module icon 
   <img src="assets/module-icons/PREMISE_logo_v2.svg" alt="PREMISE module icon board placeholder" width="900">
 </p>
 
-When the final graphic is ready, replace the file at `assets/module-icons/overview-placeholder.svg` or update the image path in this section.
-
 ---
 
 ## Software availability
