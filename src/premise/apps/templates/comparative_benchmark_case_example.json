@@ -1,0 +1,16 @@
+{
+  "app_type": "comparative_benchmark_case",
+  "name": "section32_benchmark_demo",
+  "data_dir": "/home/ud202380664/PRE_MERGE/TIMEFIX/PREMISE",
+  "file_glob": "*.TIMEFIX.daily.CHINA.nc",
+  "output_dir": "/home/ud202380664/PREMISE_runs/section32_demo",
+  "basin_shp": "/home/ud202380664/CHINA/ObeservationData/Basin/liuyu.shp",
+  "basin_field": "W1102WB0_2",
+  "basins_to_use": ["Haihe River Basin", "Pearl River Basin", "Southwest Basin"],
+  "china_shp": "/home/ud202380664/PRE_MERGE/TIMEFIX/PREMISE/China/China.shp",
+  "nine_dash_shp": "/home/ud202380664/CHINA/ObeservationData/NINELINE/NINE.shp",
+  "islands_shp": "/home/ud202380664/CHINA/ObeservationData/NINELINE/NANHAI.shp",
+  "event_threshold_china": 3.0,
+  "event_threshold_basin": 10.0,
+  "top_n_map_products": 3
+}

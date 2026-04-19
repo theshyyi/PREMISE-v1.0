@@ -1,0 +1,19 @@
+{
+  "app_type": "basin_forcing_case",
+  "name": "section31_basin_forcing_demo",
+  "data_dir": "/home/ud202380664/PRE_MERGE/TIMEFIX/PREMISE/chirps_monthly_nc",
+  "file_glob": "chirps-v3.0.*.monthly.nc",
+  "output_dir": "/home/ud202380664/PREMISE_runs/section31_demo",
+  "source_label": "CHIRPS v3 monthly",
+  "basin_shp": "/home/ud202380664/CHINA/ObeservationData/Basin/liuyu.shp",
+  "basin_field": "W1102WB0_2",
+  "selected_basins": ["Haihe River Basin", "Pearl River Basin", "Southwest Basin"],
+  "target_basin": "Haihe River Basin",
+  "target_resolution": 0.25,
+  "analysis_period": {"start": "2020-01-01", "end": "2024-12-31"},
+  "example_period": {"start": "2020-01-01", "end": "2022-12-31"},
+  "dem_path": "/home/ud202380664/PRE_MERGE/TIMEFIX/PREMISE/etopo2_new.nc",
+  "china_shp": "/home/ud202380664/PRE_MERGE/TIMEFIX/PREMISE/China/China.shp",
+  "nine_dash_shp": "/home/ud202380664/CHINA/ObeservationData/NINELINE/NINE.shp",
+  "islands_shp": "/home/ud202380664/CHINA/ObeservationData/NINELINE/NANHAI.shp"
+}

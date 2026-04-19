@@ -1,0 +1,24 @@
+{
+  "app_type": "product_ranker",
+  "name": "rank_precip_products",
+  "input_table": "I:/PREMISE_runs/dataset_evaluator/tables/summary_metrics.csv",
+  "output_dir": "I:/PREMISE_runs/product_ranker",
+  "product_col": "product",
+  "metrics": ["BIAS", "RMSE", "CORR", "KGE", "NSE", "POD", "FAR", "CSI", "HSS"],
+  "metric_directions": {
+    "BIAS": "min",
+    "RMSE": "min",
+    "CORR": "max",
+    "KGE": "max",
+    "NSE": "max",
+    "POD": "max",
+    "FAR": "min",
+    "CSI": "max",
+    "HSS": "max"
+  },
+  "methods": ["simple_average_rank", "borda", "critic_topsis", "entropy_weighted_sum", "consensus"],
+  "selection_method": "consensus",
+  "top_n": 3,
+  "make_ranking_bar": true,
+  "make_score_heatmap": true
+}

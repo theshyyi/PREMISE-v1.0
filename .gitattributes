@@ -1,0 +1,14 @@
+# Force text files to use LF in repo
+* text=auto eol=lf
+
+# Explicit common types
+*.py   text eol=lf
+*.sh   text eol=lf
+*.json text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.ini  text eol=lf
+*.cfg  text eol=lf
+*.editorconfig text eol=lf

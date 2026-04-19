@@ -1,0 +1,33 @@
+{
+  "app_type": "dataset_evaluator",
+  "name": "evaluate_precip_products",
+  "mode": "grid_to_grid",
+  "output_dir": "I:/PREMISE_runs/dataset_evaluator",
+  "time_range": {
+    "start": "2001-01-01",
+    "end": "2020-12-31"
+  },
+  "time_scale": "monthly",
+  "time_agg": "sum",
+  "group_by": "season",
+  "threshold": 1.0,
+  "overall_metrics": ["BIAS", "MAE", "RMSE", "CORR", "KGE", "NSE", "POD", "FAR", "CSI", "HSS"],
+  "spatial_metrics": ["BIAS", "RMSE", "CORR", "KGE"],
+  "make_heatmap": true,
+  "reference": {
+    "path": "I:/reference/mswep.nc",
+    "var": "precipitation"
+  },
+  "products": [
+    {
+      "name": "CHIRPS",
+      "path": "I:/products/chirps.nc",
+      "var": "pr"
+    },
+    {
+      "name": "IMERG",
+      "path": "I:/products/imerg.nc",
+      "var": "precipitation"
+    }
+  ]
+}

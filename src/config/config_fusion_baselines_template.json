@@ -1,0 +1,61 @@
+{
+  "io": {
+    "ref_path": "/home/ud202380664/PRE_MERGE/TIMEFIX/Finish/CMFDV2.TIMEFIX.daily.CHINA.nc",
+    "ref_var": "pr",
+    "products": [
+      {
+        "name": "MSWX",
+        "path": "/home/ud202380664/PRE_MERGE/TIMEFIX/Finish/MSWX-V100.TIMEFIX.daily.CHINA_Corrected_TwoStage.nc",
+        "var": "pr"
+      },
+      {
+        "name": "MSWEP",
+        "path": "/home/ud202380664/PRE_MERGE/TIMEFIX/Finish/MSWEP-V315.TIMEFIX.daily.CHINA_Corrected_TwoStage.nc",
+        "var": "pr"
+      },
+      {
+        "name": "CPC",
+        "path": "/home/ud202380664/PRE_MERGE/TIMEFIX/Finish/CPC.TIMEFIX.daily.CHINA_Corrected_TwoStage.nc",
+        "var": "pr"
+      }
+    ],
+    "china_shp": "/home/ud202380664/CHINA/ObeservationData/Chinese_Climate/Chinese_climate.shp",
+    "climate_field": "climate"
+  },
+  "preprocess": {
+    "time_floor": "D",
+    "chunks": {
+      "time": 90,
+      "lat": 200,
+      "lon": 200
+    },
+    "interp_method": "linear"
+  },
+  "baseline": {
+    "methods": [
+      "mean",
+      "median",
+      "inv_rmse_zone_month",
+      "stacking_pos_zone_month",
+      "best_single_zone_month"
+    ],
+    "train_time_range": [
+      "2000-01-01",
+      "2018-12-31"
+    ],
+    "apply_time_range": [
+      "2000-01-01",
+      "2022-12-31"
+    ],
+    "samples_per_zone_month": 60000,
+    "min_samples_per_zone_month": 5000,
+    "random_seed": 2025,
+    "eps": 1e-06,
+    "out_dir": "/home/ud202380664/PRE_MERGE/TIMEFIX/FUSION_BASELINES",
+    "out_var": "pr_fused",
+    "write": {
+      "time_block_days": 31,
+      "lat_block": 120
+    }
+  }
+}

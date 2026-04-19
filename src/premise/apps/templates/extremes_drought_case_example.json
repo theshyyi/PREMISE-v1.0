@@ -1,0 +1,15 @@
+{
+  "app_type": "extremes_drought_case",
+  "name": "section33_extremes_drought_demo",
+  "data_dir": "/home/ud202380664/PRE_MERGE/TIMEFIX/PREMISE",
+  "file_glob": "*.TIMEFIX.daily.CHINA.nc",
+  "output_dir": "/home/ud202380664/PREMISE_runs/section33_demo",
+  "basin_shp": "/home/ud202380664/CHINA/ObeservationData/Basin/liuyu.shp",
+  "basin_field": "W1102WB0_2",
+  "basins_to_use": ["Haihe River Basin", "Pearl River Basin", "Southwest Basin"],
+  "china_shp": "/home/ud202380664/PRE_MERGE/TIMEFIX/PREMISE/China/China.shp",
+  "nine_dash_shp": "/home/ud202380664/CHINA/ObeservationData/NINELINE/NINE.shp",
+  "islands_shp": "/home/ud202380664/CHINA/ObeservationData/NINELINE/NANHAI.shp",
+  "spi_scales": [3, 6, 12],
+  "top_products_for_maps": 1
+}

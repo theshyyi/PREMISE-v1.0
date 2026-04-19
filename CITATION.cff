@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "PREMISE v1.0"
+message: "If you use this software, please cite the software release and associated archive DOI."
+type: software
+authors:
+  - family-names: Le
+    given-names: Xinlong
+repository-code: "https://github.com/theshyyi/PREMISE-v1.0"
+version: 1.0.0
+doi: 10.5281/zenodo.18093220
+license: MIT
