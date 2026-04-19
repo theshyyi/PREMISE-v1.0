@@ -20,7 +20,7 @@ Optional correction and fusion utilities are retained as **legacy or experimenta
 The repository root already includes a dedicated asset path for the module icon board you plan to add later.
 
 <p align="center">
-  <img src="assets/module-icons/overview-placeholder.svg" alt="PREMISE module icon board placeholder" width="900">
+  <img src="assets/module-icons/PREMISE_logo_v2.svg" alt="PREMISE module icon board placeholder" width="900">
 </p>
 
 When the final graphic is ready, replace the file at `assets/module-icons/overview-placeholder.svg` or update the image path in this section.
