@@ -46,6 +46,8 @@ A manuscript-ready note is provided in [`docs/software_availability.md`](docs/so
 
 ```bash
 pip install -e .
+
+pip install premise-hydroclim
 ```
 
 ### Optional extras
