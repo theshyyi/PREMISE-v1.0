@@ -1,8 +1,8 @@
-# PREMISE v2.0
+# PREMISE v2.1
 
 **PREMISE** (PREcipitation Multi-source Indices and Software Evaluation) is an open-source Python framework for **basin-oriented hydroclimatic data preparation, comparative product evaluation, and climate-diagnostic workflows** in environmental modelling applications.
 
-The redesigned v2.0 architecture is organized around six application-oriented modules:
+The redesigned v2.1 architecture is organized around six application-oriented modules:
 
 1. **Data acquisition** for multi-source hydroclimatic products.
 2. **Data conversion and harmonization** for heterogeneous raw formats and metadata.
@@ -27,12 +27,12 @@ The repository root already includes a dedicated asset path for the module icon 
 
 ## Software availability
 
-- **Name of software:** PREMISE v2.0
+- **Name of software:** PREMISE v2.1
 - **Description:** An open-source Python framework for basin-oriented preprocessing, harmonization, index generation, and comparative evaluation of multi-source gridded hydroclimatic datasets in environmental modelling workflows.
 - **Developer:** Xinlong Le
 - **Programming language:** Python
 - **System requirements:** Linux, Windows, or macOS
-- **Repository:** https://github.com/theshyyi/PREMISE-v1.0
+- **Repository:** https://github.com/theshyyi/PREMISE-v2.1
 - **Version:** 2.1.0
 - **DOI:** 10.5281/zenodo.18093220
 
