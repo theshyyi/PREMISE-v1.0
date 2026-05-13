@@ -1,0 +1,21 @@
+# PREMISE v2.1 runtime and lightweight testing dependencies
+# Install with:
+#   pip install -r requirements.txt
+#   pip install -e .
+
+numpy>=1.23
+xarray>=2023.1
+pandas>=1.5
+scipy>=1.10
+netCDF4>=1.6
+matplotlib>=3.6
+pytest>=8
+pytest-cov>=5
+
+# Optional dependencies for extended workflows are managed through pyproject.toml extras:
+#   pip install -e ".[geo]"       # geopandas, regionmask, shapely
+#   pip install -e ".[tiff]"      # rioxarray, rasterio
+#   pip install -e ".[grib]"      # cfgrib, eccodes
+#   pip install -e ".[hdf]"       # h5py, h5netcdf
+#   pip install -e ".[fusion]"    # scikit-learn, joblib, tqdm
+#   pip install -e ".[full]"      # all optional dependency groups

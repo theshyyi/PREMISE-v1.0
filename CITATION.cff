@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use PREMISE v2.1, please cite the archived software release and associated manuscript."
+title: "PREMISE v2.1: A Python framework for multi-source precipitation harmonization, hydroclimatic indices, product evaluation, and ranking"
+version: "2.1.0"
+date-released: "2026-05-13"
+authors:
+  - family-names: "Le"
+    given-names: "Xinlong"
+repository-code: "https://github.com/theshyyi/PREMISE-v2.1"
+license: "MIT"

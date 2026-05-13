@@ -1,0 +1,15 @@
+Conversion module has been fully consolidated under premise/conversion/.
+
+Removed legacy modules:
+- premise/binaryio.py
+- premise/geotiff.py
+- premise/grib.py
+- premise/hdf.py
+- premise/io.py
+- premise/io_api.py
+- premise/nc_base.py
+- premise/registry.py
+- premise/readers/
+
+Use these imports now:
+from premise.conversion import open_standard_dataset, convert_binary_to_nc, convert_geotiff_to_monthly_nc, convert_grib_to_nc, convert_hdf_to_nc

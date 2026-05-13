@@ -1,0 +1,40 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+.env
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Large local data outputs
+*.nc
+*.h5
+*.hdf
+*.tif
+*.tiff
+outputs/
+conversion_output/
+basin_output/
+_reports/
